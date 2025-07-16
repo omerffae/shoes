@@ -11,9 +11,8 @@ interface IInputProps {
 const Input: FC<IInputProps> = ({ label, name, type, required = true }) => {
   return (
     <div
-      className={`relative ${
-        type === "checkbox" ? "flex items-center gap-2" : ""
-      }`}
+      className={`relative ${type === "checkbox" ? "flex items-center gap-2" : ""
+        }`}
     >
       <label htmlFor={name} className="text-sm/6 font-semibold text-gray-900">
         {label}

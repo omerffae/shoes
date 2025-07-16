@@ -2,6 +2,8 @@
 
 A RESTful API backend for a shoes e-commerce platform built with Node.js, Express, and MongoDB.
 
+![Proje Görseli](/client//public/shoes.gif)
+
 ## Features
 
 - User authentication with JWT
